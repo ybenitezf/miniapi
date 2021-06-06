@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, jsonify
 
 __version__ = '0.0.1'
 
@@ -9,6 +9,6 @@ def create_app():
 
     @app.route("/")
     def hello():
-        return {"message": "Hello !"}
+        return jsonify(message="Hello !")
 
     return app
