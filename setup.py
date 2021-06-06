@@ -14,7 +14,7 @@ def read(fname):
 
 setup(
     name='miniapi',
-    version='0.0.1',
+    version='0.0.2',
     url='https://github.com/ybenitezf/miniapi',
     license='GPL',
     author='Yoel Benítez Fonseca',
